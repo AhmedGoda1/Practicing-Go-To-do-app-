@@ -15,8 +15,6 @@ func main() {
 	fmt.Println("\n")
 	listOfTasks = addTask(listOfTasks, "Nero7 nel3ab beng")
 	printTasks(listOfTasks)
-
-	printTasks(listOfTasks)
 }
 
 func printTasks(taskItems []string) {
