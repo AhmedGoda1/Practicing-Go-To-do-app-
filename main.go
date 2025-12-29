@@ -12,7 +12,7 @@ func main() {
 	listOfTasks := []string{shortGolang, fullGolang, rewardDessert}
 
 	printTasks(listOfTasks)
-	fmt.Println("\n")
+	fmt.Println(" \n")
 	listOfTasks = addTask(listOfTasks, "Nero7 nel3ab beng")
 	printTasks(listOfTasks)
 }
